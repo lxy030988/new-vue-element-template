@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, "microsoft yahei",
+    arial, STHeiTi, sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.handle-box {
+  margin-bottom: 18px;
+}
+
+//表格样式
+// .table{
+//   font-size: 14px;
+// }
+.el-table thead tr th {
+  background: #242f42;
+  color: white;
+}
+
+.el-table--medium td {
+  padding: 8px 0;
+}
+
+.el-table {
+  .el-button {
+    padding: 0;
+  }
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background: #f0f3fa;
+}
+
+.delete,
+.delete:hover,
+.delete:focus {
+  color: #fe721e;
+}
+
+//分页居右
+.el-pagination {
+  text-align: right;
+}
+
+.addForm {
+  width: 30%;
+  margin: 20px 0 0 calc(35% - 150px);
+
+  .el-select {
+    width: 100%;
+  }
+}
